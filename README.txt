@@ -5,67 +5,67 @@
 *                                          *
 ********************************************
 
-Welcome to the loginteller program!  This program, once installed as
-/usr/local/sbin/loginteller,  tells current login name at the system.
+Benvingut al programa loginteller! Aquest programa, un cop instal·lat com a
+/usr/local/sbin/loginteller, indica el nom d'inici de sessió actual al sistema.
 
 
-SOURCES
+FONTS
 =========
 
 Web:      http://www.inf1-jobima.cat/software/utils/loginteller/
 FTP:      ftp://ftp.inf1-jobima.cat/pub/utils/loginteller/loginteller.tar.gz
 
 
-INSTALLATION
+INSTAL·LACIÓ
 ============
 
-Installation of loginteller  is quite easy.   Simply follow these steps:
+La instal·lació de loginteller és bastant fàcil. Simplement seguiu aquests passos:
 
-1. Building:
+1. Construcció:
 
        # make
 
-2. Installing:
+2. Instal·lació:
 
        # sudo make install
 
-3. You are finished.
+3. Has acabat.
 
 
-REMOVAL
+ELIMINACIÓ
 =======
 
-Removal of loginteller  is quite easy as well.   Simply follow these steps:
+L'eliminació de Loginteller també és bastant fàcil. Simplement seguiu aquests passos:
 
-1. Uninstalling:
+1. Desinstal·lació:
 
        # sudo make uninstall
 
-2. Cleaning (:
+2. Neteja (:
 
        # make clean
 
-3. You are finished.
+3. Has acabat.
 
 
-LICENSE
+LICÈNCIA
 =======
 
-The  logiteller program  is  distributed  under the  terms  of the  GNU
-General Public  License.  The  copyright on this  program belongs  to Jordi
-Binefa.  The actual license appears in file /usr/share/common-license/GPL.
+El programa logiteller es distribueix sota els termes de GNU
+Llicència Pública General. Els drets d'autor d'aquest programa pertanyen a Jordi
+Binefa. La llicència real apareix al fitxer /usr/share/common-license/GPL.
 
-Even though  the GNU General Public  License does NOT require  you to send
-your modifications back to the author,  it is considered "good form" to do
-so,  as this  allows your  modifications  to be  incorporated into  future
-versions of the program, allowing others to benefit from them.
+Tot i que la Llicència Pública General de GNU NO requereix que envieu
+les vostres modificacions tornen a l'autor, es considera "bona forma" de fer
+per tant, ja que això permet incorporar les vostres modificacions en el futur
+versions del programa, permetent que altres se'n beneficiïn.
 
 
-FEEDBACK
+COMENTARIS
 ========
 
-Your comments, suggestions, corrections and enhancements are always warmly
-welcomed!  Please send these to:
+Els vostres comentaris, suggeriments, correccions i millores sempre són cordials
+benvingut! Si us plau, envieu-los a:
 
 E-mail:   jobima@inf1-jobima.cat
 

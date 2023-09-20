@@ -1,5 +1,5 @@
 /* loginteller.c
- * Based on monousuar.c at http://www.binefa.net/gnu/gcc/processos/Informacio_d_usuari.html
+ * Basat en monousuar.c at http://www.binefa.net/gnu/gcc/processos/Informacio_d_usuari.html
  * www.binefa.cat
  * 20120507
 */
@@ -14,7 +14,7 @@ int main(){
         perror("getlogin");
         exit(EXIT_FAILURE);
     }  
-    printf("Your login name at the system is : %s\n",szLogin);
+    printf("El vostre nom d'inici de sessió al sistema és : %s\n",szLogin);
 
     return (0);
 }

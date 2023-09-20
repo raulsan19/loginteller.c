@@ -1,24 +1,26 @@
 ############################################################################
-# Makefile for building: loginteller
+# Makefile per a la construcció: loginteller
 # 20120508 - www.binefa.cat
 #############################################################################
-####### Compiler, tools and options
+####### Compilador, eines i opcions
 
 CC              = gcc
 CFLAGS          = -o
 INSTALL_PROGRAM = install -m 755 -p
 DEL_FILE        = rm -f
-####### Files
+####### Fitxers
 SOURCES   = loginteller.c
 DESTDIR   = /usr/local/bin
 TARGET    = loginteller
-####### Compilation and cleaning. Be careful, you have to write a TAB character at the beginnig of each command. Do not write whitespace characters.
+####### Recopilació i neteja. Aneu amb compte, heu d'escriure un caràcter TAB al començament de cada comanda. No escriviu espais en blanc.
 loginteller:
     $(CC) $(SOURCES) $(CFLAGS) $(TARGET)
 clean:
     $(DEL_FILE) $(TARGET)
-####### Install and uninstall. Be careful, you have to write a TAB character at the beginnig of each command. Do not write whitespace characters.
+####### Instal·lar i desinstal·lar. Aneu amb compte, heu d'escriure un caràcter TAB al començament de cada comanda. No escriviu espais en blanc.
 install: $(TARGET)
     $(INSTALL_PROGRAM) $(TARGET) $(DESTDIR)
 uninstall:
     $(DEL_FILE) $(DESTDIR)/$(TARGET)
+
+
